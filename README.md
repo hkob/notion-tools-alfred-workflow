@@ -52,13 +52,34 @@ Select task|Select pomodoro|
 - `TASK_DONE`: Task finished flag property name for the task.
 - `TASK_IS_NOT_POMO`: (Optional) Not pomodoro flag property name for the task.
 - `TASK_IS_POMO`: (Optional) Pomodoro flag property name for the task.
-- `PROJECT_NAME`: Relation title to Project for the task.  Do not use Japanese character `プロジェクト`, because of the NFC-NFD problem.
+- `PROJECT_NAME`: Title name for Project database.  Do not use Japanese character `プロジェクト`, because of the NFC-NFD problem.
+- `PROJECT_LINK_NAME`: Relation title to Project for the task.  Do not use Japanese character `プロジェクト`, because of the NFC-NFD problem.
 - `REFRECTION_TITLE`: Refrection page title.
 - `NOTION_CALENDAR`: Calendar name for Notion Calendar.
 
-# Adding the variables to the Alfred workflows
+# How to use
+
+## Notion setup
+
+In this workflow, two Notion database (Task and Project) are required.
+A task page belongs to a project page.
+Please check [a sample template](https://www.notion.so/Sample-database-for-notion-tools-alfred-workflow-5b5556f7fec84468ad1e4fe2bdea2db3) for these database.
+
+## Notion API setup
+
+Next, set API setting.  Please see [Getting Started](https://developers.notion.com/docs/getting-started) in the Notion Developer page.
+Please remind `MY_NOTION_TOKEN` and database_id for the above two databases (`TASK_ID` and `PROJECT_ID`).
+
+## Set workflow variables
 
 In the Alfred worfklow in the upper right corner click the `[x]` icon and add the values from above to the corresponding value field.
+Please set the above three parameters, and modify the other environment variables to match the properties of your database.
+![environments](environments.png)
+
+## Change keyword and icon image (Optional)
+
+You can change the keyword and the image icon in the keyword box.
+![keyword box](keyword.png)
 
 # Download
 

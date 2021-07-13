@@ -1065,6 +1065,8 @@ Set pomodoro
 		<string>Notion</string>
 		<key>PROJECT_ID</key>
 		<string>38bb4bd5b7044d218894657f5b3c0cf8</string>
+		<key>PROJECT_LINK_NAME</key>
+		<string>Project</string>
 		<key>PROJECT_NAME</key>
 		<string>name</string>
 		<key>REFLECTION_TITLE</key>
@@ -1086,12 +1088,12 @@ Set pomodoro
 	</dict>
 	<key>variablesdontexport</key>
 	<array>
-		<string>TASK_ID</string>
 		<string>PROJECT_ID</string>
+		<string>TASK_ID</string>
 		<string>MY_NOTION_TOKEN</string>
 	</array>
 	<key>version</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>webaddress</key>
 	<string>https://hkob.hatenablog.com/</string>
 </dict>

@@ -11,6 +11,7 @@ TASK_NAME = ENV["TASK_NAME"] # タスクの名前
 TASK_DATE = ENV["TASK_DATE"] # タスクの日付
 TASK_DONE = ENV["TASK_DONE"] # タスクの終了フラグ
 PROJECT_NAME = ENV["PROJECT_NAME"] # プロジェクトの名前
+PROJECT_LINK_NAME = ENV["PROJECT_LINK_NAME"] # タスクからのリンク名
 REFLECTION_TITLE=ENV["REFLECTION_TITLE"] # 振り返りのタスクタイトル
 TASK_POMO = ENV["TASK_POMO"] # ポモドーロの属性
 TASK_IS_POMO = ENV["TASK_IS_POMO"] || "" # ポモドーロであるときに true になる属性
@@ -57,7 +58,7 @@ def create_task(title, datetime, project_id = nil)
           start: datetime
         }
       },
-      Project: {
+      PROJECT_LINK_NAME => {
         type: "relation",
         relation: relation
       }
