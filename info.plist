@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>jp.ac.metro-cit.hkob.notion-tools</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>109F7B98-1B50-45E9-93AC-8EE2D7A9B307</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C4E5449E-A742-47CB-A3A2-F4E9362AD586</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8ABD91CC-318D-4890-8DCB-DBD6C5146CE1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>229C8F99-A31E-4368-A378-81F236AB5DEE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>95FAD422-27BE-4B77-8FBD-278BD0127FAD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>63E046F8-DB94-4C69-AE21-FDCDDA7328FA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>B157274C-527D-4275-AC22-140AF6107B4A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>109F7B98-1B50-45E9-93AC-8EE2D7A9B307</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string>Reload projects</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>974C04C3-7DD4-4D16-9F3B-46AEAB66E62C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8F5F9393-8DEA-432A-BA7D-E815860CB043</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>99BC79F5-A107-4680-9A2F-E97B5EE74552</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FD2BA461-762A-44AC-B66B-577DB58B5C4C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>DE5332BA-0034-4B16-B474-A08BE2D470F5</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string>Finish the task</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B157274C-527D-4275-AC22-140AF6107B4A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C4E5449E-A742-47CB-A3A2-F4E9362AD586</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C4E5449E-A742-47CB-A3A2-F4E9362AD586</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>179DB1E1-4193-4939-9015-E4B3BEC1F766</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C749A559-FC7D-4E9D-9ED0-9D0B0411F3A2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CC7EF1C8-7C6E-40A5-A92D-745F89931619</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FD2BA461-762A-44AC-B66B-577DB58B5C4C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>974C04C3-7DD4-4D16-9F3B-46AEAB66E62C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Hiroyuki KOBAYASHI</string>
+	<key>description</key>
+	<string>Some workflows for Notion</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Notion tools</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
+readonly remote_info_plist='https://raw.githubusercontent.com/hkob/notion-tools-alfred-workflow/master/info.plist'
+readonly workflow_url='hkob/notion-tools-alfred-workflow'
+readonly download_type='github_release'
+readonly frequency_check='1'
+
+# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
+function abort {
+  echo "${1}" &gt;&amp;2
+  exit 1
+}
+
+function url_exists {
+  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
+}
+
+function notification {
+  local -r notificator="$(find . -type d -name 'Notificator.app')"
+  if [[ -n "${notificator}" ]]; then
+    "${notificator}/Contents/Resources/Scripts/notificator" --message "${1}" --title "${alfred_workflow_name}" --subtitle 'A new version is available'
+    return
+  fi
+
+  local -r terminal_notifier="$(find . -type f -name 'terminal-notifier')"
+  if [[ -n "${terminal_notifier}" ]]; then
+    "${terminal_notifier}" -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
+    return
+  fi
+
+  osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
+}
+
+# Local sanity checks
+readonly local_info_plist='info.plist'
+readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
+
+[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
+[[ "${download_type}" =~ ^(direct|page|github_release)$ ]] || abort "'download_type' (${download_type}) needs to be one of 'direct', 'page', or 'github_release'."
+[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
+
+# Check for updates
+if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
+  if ! url_exists "${remote_info_plist}"; then abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."; fi # Remote sanity check
+
+  readonly tmp_file="$(mktemp)"
+  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
+  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
+
+  if [[ "${local_version}" == "${remote_version}" ]]; then
+    touch "${local_info_plist}" # Reset timer by touching local file
+    exit 0
+  fi
+
+  if [[ "${download_type}" == 'page' ]]; then
+    notification 'Opening download page…'
+    open "${workflow_url}"
+    exit 0
+  fi
+
+  download_url="$([[ "${download_type}" == 'github_release' ]] &amp;&amp; curl --silent "https://api.github.com/repos/${workflow_url}/releases/latest" | grep 'browser_download_url' | head -1 | sed -E 's/.*browser_download_url": "(.*)"/\1/' || echo "${workflow_url}")"
+
+  if url_exists "${download_url}"; then
+    notification 'Downloading and installing…'
+    curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${download_url}"
+    open "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow"
+  else
+    abort "'workflow_url' (${download_url}) appears to not be reachable."
+  fi
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>63E046F8-DB94-4C69-AE21-FDCDDA7328FA</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>require './notion.rb'
+
+project_id = ARGV[0]
+
+date = nil
+time = nil
+words = ENV["input"].split " "
+
+time = (words.pop + MY_TZ) if words[-1] =~ /\d+:\d+/
+
+begin
+  date = Date.parse words[-1]
+  # If the above Date.parse was success, the last parameter will remove.
+  words.pop
+rescue
+end
+STDERR.print Date.today
+
+datetime = [(date || Date.today), time].compact.join " "
+summary = words.join " "
+create_task(summary, datetime, project_id)</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>179DB1E1-4193-4939-9015-E4B3BEC1F766</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>select</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>require "./notion.rb"
+require "yaml"
+
+PROJECT_FNAME = "projects.yml"
+
+if !ENV["reload"] &amp;&amp; File.exists?(PROJECT_FNAME)
+  projects = open(PROJECT_FNAME, "r") { |f| YAML.load f }
+else
+  projects = get_notion_pages({
+    sorts: [
+      {
+	    "property": PROJECT_NAME,
+	    "direction": "ascending"
+	  }
+    ],
+  }, PROJECT_ID).map { |p|
+    prs = p["properties"]
+    {
+      id: p["id"],
+      title: (prs[PROJECT_NAME]["title"][0]["plain_text"] || ""),
+    }
+  }
+  YAML.dump projects, File.open(PROJECT_FNAME, "w")
+end
+
+items = {
+  items: projects.map do |p|
+    {
+      uid: p[:id],
+      title: p[:title],
+      arg: p[:id]
+    }
+  end
+}
+print JSON.dump(items)
+</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Select Project</string>
+				<key>type</key>
+				<integer>2</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>C4E5449E-A742-47CB-A3A2-F4E9362AD586</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>an</string>
+				<key>subtext</key>
+				<string>text date time : date and time are optional</string>
+				<key>text</key>
+				<string>Add Notion Task</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>95FAD422-27BE-4B77-8FBD-278BD0127FAD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>input</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>B157274C-527D-4275-AC22-140AF6107B4A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>input</key>
+					<string>{query}</string>
+					<key>reload</key>
+					<string>true</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>109F7B98-1B50-45E9-93AC-8EE2D7A9B307</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>ObjC.import("stdlib");
+
+function run(argv) {
+  let query = argv[0];
+  let Calendar = Application("Calendar")
+  let cal = $.getenv("NOTION_CALENDAR")
+  console.log(cal)
+
+  let notionCal = Calendar.calendars["Notion"]
+  var endTimeStr = null
+  var startTimeStr = null
+
+  // query を分割
+  let words = query.split(" ")
+  // 最後のパラメータが時間かどうか
+  var timeStr = words.slice(-1)[0]
+  if (timeStr &amp;&amp; timeStr.match("[0-9]+:[0-9]+")) {
+    endTimeStr = words.pop()
+  }
+  // 時間が設定されていたら開始時間もあるかどうか調べる
+  if (endTimeStr) {
+    timeStr = words.slice(-1)[0]
+    if (timeStr &amp;&amp; timeStr.match("[0-9]+:[0-9]+")) {
+      startTimeStr = words.pop()
+    } else {
+      startTimeStr = endTimeStr
+      endTimeStr = null
+    }
+  }
+  var dateStr = words.slice(-1)[0]
+  // 日付が設定されていなければ今日にする
+  if (dateStr.match("^[0-9]+/[0-9]+$")) {
+    dateStr = new Date().getFullYear() + "/" + words.pop()
+  } else if (dateStr.match("^[0-9]+/[0-9]+/[0-9]+/$")) {
+    dateStr = words.pop()
+  } else {
+    let timeNow = new Date()
+    dateStr = timeNow.getFullYear() + "/" + (timeNow.getMonth() + 1) + "/" + timeNow.getDate()
+  }
+  // 日付・時間を除いた文字列から summary を作成
+  let summary = words.join(" ")
+  if (startTimeStr) {
+    // 開始時間が設定されていたら時間を含めた日付を設定
+    let startTime = new Date(dateStr + " " + startTimeStr)
+    var endTime
+    if (endTimeStr) {
+      // 終了時間が設定されていたら時間を含めた日付を設定
+      endTime = new Date(dateStr + " " + endTimeStr)
+    } else {
+      // 終了時間が設定されていなかったら開始時間の1時間後を設定
+      endTime = new Date(dateStr + " " + startTimeStr)
+      endTime.setHours(endTime.getHours()+1)
+    }
+    let newEvent = Calendar.Event({summary: summary, startDate: startTime, endDate: endTime})
+    notionCal.events.push(newEvent)
+  } else {
+    let date = new Date(dateStr)
+    let newEvent = Calendar.Event({summary: summary, startDate: date, endDate: date, alldayEvent: true})
+    notionCal.events.push(newEvent)
+  }
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>229C8F99-A31E-4368-A378-81F236AB5DEE</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>ac</string>
+				<key>subtext</key>
+				<string>text date start_time end_time: date, start_time and end_time are optional</string>
+				<key>text</key>
+				<string>Add Calendar Task</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>8ABD91CC-318D-4890-8DCB-DBD6C5146CE1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>require "./notion.rb"
+
+# page_id を取得
+pages = get_notion_pages({
+  filter: {
+    and: [
+      {
+        property: TASK_NAME,
+        text: {
+          starts_with: REFLECTION_TITLE,
+        },
+      },
+      {
+        property: TASK_DATE,
+        date: {
+          equals: Date.today,
+        },
+      },
+    ],
+  },
+})
+id = pages.first["id"]
+
+# 箇条書きを追加
+append_block_children(id, {
+  children: [
+    {
+      object: "block",
+      type: "bulleted_list_item",
+      bulleted_list_item: {
+        text: [
+          {
+            type: "text",
+            text: {
+              content: "{query}",
+            },
+            annotaions: {
+              bold: false,
+              italic: false,
+              strikethrough: false,
+              underline: false,
+              code: false,
+              colod: "default",
+            },
+            plain_text: "{query}",
+          }
+        ],
+      }
+    }
+  ]
+})</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>CC7EF1C8-7C6E-40A5-A92D-745F89931619</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>ar</string>
+				<key>subtext</key>
+				<string>Append finished task to reflection page</string>
+				<key>text</key>
+				<string>Add Reflection</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C749A559-FC7D-4E9D-9ED0-9D0B0411F3A2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>pn</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>require './notion.rb'
+
+filters = [{property: TASK_DATE, date: {equals: Date.today}}]
+filters &lt;&lt; {property: TASK_IS_POMO, checkbox: {equals: true}} unless TASK_IS_POMO.empty?
+filters &lt;&lt; {property: TASK_IS_NOT_POMO, checkbox: {equals: false}} unless TASK_IS_NOT_POMO.empty?
+             
+# page を取得し、利用しやすい Hash に変換
+pages = get_notion_pages({
+  filter: {
+    and: filters
+  },
+  sorts: [
+    {
+	  "property": TASK_POMO,
+	  "direction": "ascending"
+	}
+  ],
+}).map { |p|
+  prs = p["properties"]
+  {
+    id: p["id"],
+    title: (prs[TASK_NAME]["title"][0]["plain_text"] || ""),
+    done: (prs[TASK_DONE]["checkbox"]),
+    pomos: (prs[TASK_POMO]["multi_select"].map { |ms| ms["name"] }),
+  }
+}
+
+# 設定されている最後のポモドーロ番号を取得
+max_pomo = pages.map { |p| p[:pomos] }.flatten.max
+
+# 終了したページは除外
+pages.reject! { |p| p[:done] }
+
+items = {
+  items: pages.map do |p|
+    {
+      # タイトル
+      title: p[:title],
+      # サブタイトルにポモドーロを描画
+      subtitle: p[:pomos].join(", "),
+      # 次のモジュールに渡す引数(id, title, 最大ポモ, 設定済ポモ)
+      arg: [p[:id], p[:title], max_pomo, p[:pomos]].flatten.join("\t")
+    }
+  end
+}
+print JSON.dump(items)</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Set pomodoro</string>
+				<key>type</key>
+				<integer>2</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>99BC79F5-A107-4680-9A2F-E97B5EE74552</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>require "./notion.rb"
+
+id = ARGV[0]
+pomos = ARGV[1..].sort
+
+update_page(id, {
+  properties: {
+    TASK_POMO: {
+      multi_select: pomos.map { |p| {name: p } }
+    }
+  }
+})</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>8F5F9393-8DEA-432A-BA7D-E815860CB043</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>select</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>require "./notion.rb"
+
+args = ENV["args"].split "\t"
+task_id, title, max_pomo = args[0..2]
+settled = args.length &gt; 3 ? args[3..] : []
+
+pomos = (1..5).map { |x| (1..4).map { |y| "#{x}-#{y}" } }.flatten
+STDERR.print "max_pomo = #{max_pomo}, num = #{pomos.index max_pomo}"
+if (num = pomos.index max_pomo)
+  pomos = [pomos[num..], pomos[0...num]].flatten
+end
+pomo_list = pomos - settled
+
+items = {
+  items: pomo_list.map do |p|
+    {
+      title: p,
+      subtitle: "#{title}: #{settled.join(",")}",
+      arg: [task_id, p, settled].flatten
+    }
+  end
+}
+print JSON.dump(items)</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>select pomodoro</string>
+				<key>type</key>
+				<integer>2</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>974C04C3-7DD4-4D16-9F3B-46AEAB66E62C</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>args</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>FD2BA461-762A-44AC-B66B-577DB58B5C4C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>require "./notion.rb"
+
+id = ARGV[0].split("\t").first
+
+update_page(id, {
+  properties: {
+    TASK_DONE: {
+      checkbox: true
+    }
+  }
+})</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>DE5332BA-0034-4B16-B474-A08BE2D470F5</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Add Notion Task
+  Usage:
+	an task-name
+		Input a today task as 'task-name' to Notion
+	an task-name hh:mm
+		Input a today 'task-name' task at 'hh:mm' to Notion
+	an task-name MM/DD
+		Input a 'task-name' task at 'MM/DD' to Notion
+	an task-name YYYY/MM/DD
+		Input a 'task-name' task at 'YYYY/MM/DD' to Notion
+	an task-name MM/DD hh:mm
+		Input a 'task-name' task at 'MM/DD hh:mm' to Notion
+	an task-name YYYY/MM/DD hh:mm
+		Input a 'task-name' task at 'YYYY/MM/DD hh:mm' to Notion
+
+Add Calendar Task
+  Usage:
+    ac task-name
+        Input a today task as 'task-name' to Calendar
+    ac task-name hh:mm
+        Input a today 'task-name' task at 'hh:mm' to Calendar
+    ac task-name MM/DD
+        Input a 'task-name' task at 'MM/DD' to Calendar
+    ac task-name YYYY/MM/DD
+        Input a 'task-name' task at 'YYYY/MM/DD' to Calendar
+    ac task-name MM/DD hh:mm
+        Input a 'task-name' task at 'MM/DD hh:mm - hh+1:mm' to Calendar
+	ac task-name MM/DD h1:m1 h2:m2
+        Input a 'task-name' task at 'MM/DD h1:m1 - h2:m2' to Calendar
+    ac task-name YYYY/MM/DD hh:mm
+        Input a 'task-name' task at 'YYYY/MM/DD hh:mm - hh+1:mm' to Calendar
+    ac task-name YYYY/MM/DD h1:m1 h2:m2
+        Input a 'task-name' task at 'YYYY/MM/DD h1:m1 - h2:m2' to Calendar
+
+Add Reflection
+  Usage:
+	ar task-name
+		Append finished task to reflection page
+
+Set pomodoro
+  Usage:
+	pn</string>
+	<key>uidata</key>
+	<dict>
+		<key>109F7B98-1B50-45E9-93AC-8EE2D7A9B307</key>
+		<dict>
+			<key>note</key>
+			<string>force reload project</string>
+			<key>xpos</key>
+			<integer>255</integer>
+			<key>ypos</key>
+			<integer>275</integer>
+		</dict>
+		<key>179DB1E1-4193-4939-9015-E4B3BEC1F766</key>
+		<dict>
+			<key>xpos</key>
+			<integer>565</integer>
+			<key>ypos</key>
+			<integer>165</integer>
+		</dict>
+		<key>229C8F99-A31E-4368-A378-81F236AB5DEE</key>
+		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
+			<key>ypos</key>
+			<integer>360</integer>
+		</dict>
+		<key>63E046F8-DB94-4C69-AE21-FDCDDA7328FA</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>note</key>
+			<string>OneUpdater</string>
+			<key>xpos</key>
+			<integer>235</integer>
+			<key>ypos</key>
+			<integer>45</integer>
+		</dict>
+		<key>8ABD91CC-318D-4890-8DCB-DBD6C5146CE1</key>
+		<dict>
+			<key>xpos</key>
+			<integer>60</integer>
+			<key>ypos</key>
+			<integer>360</integer>
+		</dict>
+		<key>8F5F9393-8DEA-432A-BA7D-E815860CB043</key>
+		<dict>
+			<key>xpos</key>
+			<integer>550</integer>
+			<key>ypos</key>
+			<integer>620</integer>
+		</dict>
+		<key>95FAD422-27BE-4B77-8FBD-278BD0127FAD</key>
+		<dict>
+			<key>xpos</key>
+			<integer>60</integer>
+			<key>ypos</key>
+			<integer>165</integer>
+		</dict>
+		<key>974C04C3-7DD4-4D16-9F3B-46AEAB66E62C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>325</integer>
+			<key>ypos</key>
+			<integer>620</integer>
+		</dict>
+		<key>99BC79F5-A107-4680-9A2F-E97B5EE74552</key>
+		<dict>
+			<key>xpos</key>
+			<integer>55</integer>
+			<key>ypos</key>
+			<integer>620</integer>
+		</dict>
+		<key>B157274C-527D-4275-AC22-140AF6107B4A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>255</integer>
+			<key>ypos</key>
+			<integer>195</integer>
+		</dict>
+		<key>C4E5449E-A742-47CB-A3A2-F4E9362AD586</key>
+		<dict>
+			<key>xpos</key>
+			<integer>375</integer>
+			<key>ypos</key>
+			<integer>165</integer>
+		</dict>
+		<key>C749A559-FC7D-4E9D-9ED0-9D0B0411F3A2</key>
+		<dict>
+			<key>xpos</key>
+			<integer>60</integer>
+			<key>ypos</key>
+			<integer>485</integer>
+		</dict>
+		<key>CC7EF1C8-7C6E-40A5-A92D-745F89931619</key>
+		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
+			<key>ypos</key>
+			<integer>485</integer>
+		</dict>
+		<key>DE5332BA-0034-4B16-B474-A08BE2D470F5</key>
+		<dict>
+			<key>xpos</key>
+			<integer>330</integer>
+			<key>ypos</key>
+			<integer>765</integer>
+		</dict>
+		<key>FD2BA461-762A-44AC-B66B-577DB58B5C4C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>235</integer>
+			<key>ypos</key>
+			<integer>650</integer>
+		</dict>
+	</dict>
+	<key>variables</key>
+	<dict>
+		<key>MY_NOTION_TOKEN</key>
+		<string>secret_oYJ9amxjIt0CstGBmuggjVcExDumFSQ68VPmmLdQMMV</string>
+		<key>MY_TZ</key>
+		<string>+09:00</string>
+		<key>NOTION_CALENDAR</key>
+		<string>Notion</string>
+		<key>PROJECT_ID</key>
+		<string>38bb4bd5b7044d218894657f5b3c0cf8</string>
+		<key>PROJECT_NAME</key>
+		<string>name</string>
+		<key>REFLECTION_TITLE</key>
+		<string>雑務・振り返り</string>
+		<key>TASK_DATE</key>
+		<string>日付</string>
+		<key>TASK_DONE</key>
+		<string>Done</string>
+		<key>TASK_ID</key>
+		<string>2395e3ffb55e4a8abc1ba426243776e3</string>
+		<key>TASK_IS_NOT_POMO</key>
+		<string>非🍅?</string>
+		<key>TASK_IS_POMO</key>
+		<string></string>
+		<key>TASK_NAME</key>
+		<string>タスク名</string>
+		<key>TASK_POMO</key>
+		<string>🍅</string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>TASK_ID</string>
+		<string>MY_NOTION_TOKEN</string>
+		<string>PROJECT_ID</string>
+	</array>
+	<key>version</key>
+	<string>1.0</string>
+	<key>webaddress</key>
+	<string>https://hkob.hatenablog.com/</string>
+</dict>
+</plist>
