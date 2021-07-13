@@ -1087,8 +1087,8 @@ Set pomodoro
 	<key>variablesdontexport</key>
 	<array>
 		<string>TASK_ID</string>
-		<string>MY_NOTION_TOKEN</string>
 		<string>PROJECT_ID</string>
+		<string>MY_NOTION_TOKEN</string>
 	</array>
 	<key>version</key>
 	<string>1.0</string>

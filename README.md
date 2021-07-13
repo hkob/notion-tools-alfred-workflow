@@ -60,3 +60,7 @@ Select task|Select pomodoro|
 
 In the Alfred worfklow in the upper right corner click the `[x]` icon and add the values from above to the corresponding value field.
 
+# Download
+
+https://github.com/hkob/notion-tools-alfred-workflow/releases/latest/download/NotionTools.alfredworkflow
+
