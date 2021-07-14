@@ -83,5 +83,5 @@ You can change the keyword and the image icon in the keyword box.
 
 # Download
 
-https://github.com/hkob/notion-tools-alfred-workflow/releases/latest/download/NotionTools.alfredworkflow
+https://github.com/hkob/notion-tools-alfred-workflow/releases/latest/download/Notion.tools.alfredworkflow
 
