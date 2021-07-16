@@ -34,12 +34,23 @@ Title only|With date|With date and start time|With date, start time and end time
 Simply type your sentence into Alfred to append the sentence block to a daily refrection page.
 ![ar](ar.png)
 
-## pn: Set pomodoro property to today's tasks
+## pn: Set pomodoro property to today's tasks / finish the task
 
 Select an unfinished task from list, and settle a correspond pomodoro period.
-Select task|Select pomodoro|
-:-:|:-:
-|![select task](pn1.png)|![select task](pn2.png)|
+
+If you want to finish the task, press `Shift` key while selecting.
+
+Select task|Select pomodoro|Finish the task|
+:-:|:-:|:-:
+|![select task](pn1.png)|![select task](pn2.png)|![Finish the task](pn3.png)
+
+# ot: Open an unfinished task / finish the task
+
+If you type only "ot", a list of unfinished tasks will be displayed, so select the task you want to display.
+The task opens in the Notion desktop app if the environment variable `OPEN_BY_APP` is set to` true`, or in the default browser if it is set to `false`.
+
+If you want to finish the task, press `Shift` key while selecting.
+![open task](ot.png)
 
 # Workflow Variables
 
@@ -56,6 +67,7 @@ Select task|Select pomodoro|
 - `PROJECT_LINK_NAME`: Relation title to Project for the task.  Do not use Japanese character `プロジェクト`, because of the NFC-NFD problem.
 - `REFRECTION_TITLE`: Refrection page title.
 - `NOTION_CALENDAR`: Calendar name for Notion Calendar.
+- `OPEN_BY_APP`: `true` to open app, `false` to open browser
 
 # How to use
 
@@ -68,7 +80,7 @@ Please check [a sample template](https://www.notion.so/Sample-database-for-notio
 ## Notion API setup
 
 Next, set API setting.  Please see [Getting Started](https://developers.notion.com/docs/getting-started) in the Notion Developer page.
-Please remind `MY_NOTION_TOKEN` and database_id for the above two databases (`TASK_ID` and `PROJECT_ID`).
+Please remind `MY_NOTION_TOKEN` and database_id for the above two databases (`TASK_ID` and `PROJECT_ID`), and invite your integraion to the two databases.
 
 ## Set workflow variables
 
