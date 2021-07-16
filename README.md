@@ -1,4 +1,7 @@
 # notion-tools-alfred-workflow
+
+[日本語版 README はこちら](README-ja.md)
+
 An Alfred workflow to add / change tasks to Notion.so
 
 This workflow uses [OneUpdater](https://github.com/vitorgalvao/alfred-workflows/tree/master/OneUpdater) for automatic version updates.
