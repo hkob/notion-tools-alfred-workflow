@@ -21,11 +21,74 @@
 				<false/>
 			</dict>
 		</array>
+		<key>42AFF988-4DA6-4786-99E3-C5EC85080649</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4A1F544E-EAEB-4064-B190-7670A658E100</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A1C7AEEB-61E7-4954-B62D-E5504ED9163B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4913E118-B191-4D22-B13E-A60479260EAF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9310A4D8-6A98-45BF-9C3A-7615A6F8F676</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4A1F544E-EAEB-4064-B190-7670A658E100</key>
+		<array/>
 		<key>8ABD91CC-318D-4890-8DCB-DBD6C5146CE1</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>229C8F99-A31E-4368-A378-81F236AB5DEE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9310A4D8-6A98-45BF-9C3A-7615A6F8F676</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>42AFF988-4DA6-4786-99E3-C5EC85080649</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>111C397D-E270-4C4E-8D77-66B8B5F9A492</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A1C7AEEB-61E7-4954-B62D-E5504ED9163B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -72,6 +135,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>8F5F9393-8DEA-432A-BA7D-E815860CB043</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>98D6EF53-6220-4AFA-ABC3-036B991F92E8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4913E118-B191-4D22-B13E-A60479260EAF</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -147,6 +223,29 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>974C04C3-7DD4-4D16-9F3B-46AEAB66E62C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FD59D32A-1370-4CCE-B278-FE2F45AE661D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DE5332BA-0034-4B16-B474-A08BE2D470F5</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string>Finish the task</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>98D6EF53-6220-4AFA-ABC3-036B991F92E8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -256,6 +355,27 @@ fi</string>
 			<string>63E046F8-DB94-4C69-AE21-FDCDDA7328FA</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>an</string>
+				<key>subtext</key>
+				<string>text date time : date and time are optional</string>
+				<key>text</key>
+				<string>Add Notion Task</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>95FAD422-27BE-4B77-8FBD-278BD0127FAD</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -383,27 +503,6 @@ print JSON.dump(items)
 			<string>C4E5449E-A742-47CB-A3A2-F4E9362AD586</string>
 			<key>version</key>
 			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>an</string>
-				<key>subtext</key>
-				<string>text date time : date and time are optional</string>
-				<key>text</key>
-				<string>Add Notion Task</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>95FAD422-27BE-4B77-8FBD-278BD0127FAD</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -554,6 +653,27 @@ function run(argv) {
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>ar</string>
+				<key>subtext</key>
+				<string>Append finished task to reflection page</string>
+				<key>text</key>
+				<string>Add Reflection</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C749A559-FC7D-4E9D-9ED0-9D0B0411F3A2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -627,23 +747,73 @@ append_block_children(id, {
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
-				<key>keyword</key>
-				<string>ar</string>
-				<key>subtext</key>
-				<string>Append finished task to reflection page</string>
-				<key>text</key>
-				<string>Add Reflection</string>
-				<key>withspace</key>
+				<key>argumenttreatemptyqueryasnil</key>
 				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>select</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>require "./notion.rb"
+
+args = ENV["args"].split "\t"
+task_id, title, max_pomo = args[0..2]
+settled = args.length &gt; 3 ? args[3..] : []
+
+pomos = (1..5).map { |x| (1..4).map { |y| "#{x}-#{y}" } }.flatten
+STDERR.print "max_pomo = #{max_pomo}, num = #{pomos.index max_pomo}"
+if (num = pomos.index max_pomo)
+  pomos = [pomos[num..], pomos[0...num]].flatten
+end
+pomo_list = pomos - settled
+
+items = {
+  items: pomo_list.map do |p|
+    {
+      title: p,
+      subtitle: "#{title}: #{settled.join(",")}",
+      arg: [task_id, p, settled].flatten
+    }
+  end
+}
+print JSON.dump(items)</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>select pomodoro</string>
+				<key>type</key>
+				<integer>2</integer>
+				<key>withspace</key>
+				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>C749A559-FC7D-4E9D-9ED0-9D0B0411F3A2</string>
+			<string>974C04C3-7DD4-4D16-9F3B-46AEAB66E62C</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -776,77 +946,6 @@ update_page(id, {
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<true/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>keyword</key>
-				<string>select</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>script</key>
-				<string>require "./notion.rb"
-
-args = ENV["args"].split "\t"
-task_id, title, max_pomo = args[0..2]
-settled = args.length &gt; 3 ? args[3..] : []
-
-pomos = (1..5).map { |x| (1..4).map { |y| "#{x}-#{y}" } }.flatten
-STDERR.print "max_pomo = #{max_pomo}, num = #{pomos.index max_pomo}"
-if (num = pomos.index max_pomo)
-  pomos = [pomos[num..], pomos[0...num]].flatten
-end
-pomo_list = pomos - settled
-
-items = {
-  items: pomo_list.map do |p|
-    {
-      title: p,
-      subtitle: "#{title}: #{settled.join(",")}",
-      arg: [task_id, p, settled].flatten
-    }
-  end
-}
-print JSON.dump(items)</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>select pomodoro</string>
-				<key>type</key>
-				<integer>2</integer>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>974C04C3-7DD4-4D16-9F3B-46AEAB66E62C</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argument</key>
 				<string></string>
 				<key>passthroughargument</key>
@@ -878,7 +977,7 @@ id = ARGV[0].split("\t").first
 
 update_page(id, {
   properties: {
-    TASK_DONE: {
+    TASK_DONE =&gt; {
       checkbox: true
     }
   }
@@ -896,6 +995,214 @@ update_page(id, {
 			<string>DE5332BA-0034-4B16-B474-A08BE2D470F5</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>function run(argv) {
+  let notion = Application("Notion")
+  notion.activate()
+  return argv
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>4A1F544E-EAEB-4064-B190-7670A658E100</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>ot</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>require './notion.rb'
+             
+# page を取得し、利用しやすい Hash に変換
+pages = get_notion_pages({
+  filter: {
+    and:
+     [
+       {property: TASK_DATE, date: {equals: Date.today}},
+       {property: TASK_DONE, checkbox: {equals: false}},
+     ]
+  },
+  sorts: [{"property": TASK_POMO, "direction": "ascending"}],
+}).map { |p|
+  prs = p["properties"]
+  {
+    id: p["id"],
+    url: p["url"],
+    title: (prs[TASK_NAME]["title"][0]["plain_text"] || ""),
+  }
+}
+
+items = {
+  items: pages.map do |p|
+    {
+      # タイトル
+      title: p[:title],
+      subtitle: "Return to open, Shift+Return to finish",
+      # 次のモジュールに渡す引数(id, URL)
+      arg: [p[:id], p[:url]].flatten.join("\t")
+    }
+  end
+}
+print JSON.dump(items)</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Return to open, Shift+Return to finish</string>
+				<key>title</key>
+				<string>Unfinished today tasks</string>
+				<key>type</key>
+				<integer>2</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>FD59D32A-1370-4CCE-B278-FE2F45AE661D</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>https</string>
+				<key>replacestring</key>
+				<string>notion</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>42AFF988-4DA6-4786-99E3-C5EC85080649</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:OPEN_BY_APP}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>true</string>
+						<key>outputlabel</key>
+						<string>open_by_app</string>
+						<key>uid</key>
+						<string>111C397D-E270-4C4E-8D77-66B8B5F9A492</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>open_by_browser</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>9310A4D8-6A98-45BF-9C3A-7615A6F8F676</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:split2}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>4913E118-B191-4D22-B13E-A60479260EAF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>delimiter</key>
+				<string>	</string>
+				<key>trimarguments</key>
+				<true/>
+				<key>variableprefix</key>
+				<string>split</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.split</string>
+			<key>uid</key>
+			<string>98D6EF53-6220-4AFA-ABC3-036B991F92E8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string></string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>A1C7AEEB-61E7-4954-B62D-E5504ED9163B</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -966,6 +1273,27 @@ Set pomodoro
 			<key>ypos</key>
 			<integer>360</integer>
 		</dict>
+		<key>42AFF988-4DA6-4786-99E3-C5EC85080649</key>
+		<dict>
+			<key>xpos</key>
+			<integer>545</integer>
+			<key>ypos</key>
+			<integer>910</integer>
+		</dict>
+		<key>4913E118-B191-4D22-B13E-A60479260EAF</key>
+		<dict>
+			<key>xpos</key>
+			<integer>325</integer>
+			<key>ypos</key>
+			<integer>925</integer>
+		</dict>
+		<key>4A1F544E-EAEB-4064-B190-7670A658E100</key>
+		<dict>
+			<key>xpos</key>
+			<integer>660</integer>
+			<key>ypos</key>
+			<integer>880</integer>
+		</dict>
 		<key>63E046F8-DB94-4C69-AE21-FDCDDA7328FA</key>
 		<dict>
 			<key>colorindex</key>
@@ -991,6 +1319,13 @@ Set pomodoro
 			<key>ypos</key>
 			<integer>620</integer>
 		</dict>
+		<key>9310A4D8-6A98-45BF-9C3A-7615A6F8F676</key>
+		<dict>
+			<key>xpos</key>
+			<integer>390</integer>
+			<key>ypos</key>
+			<integer>915</integer>
+		</dict>
 		<key>95FAD422-27BE-4B77-8FBD-278BD0127FAD</key>
 		<dict>
 			<key>xpos</key>
@@ -1005,12 +1340,26 @@ Set pomodoro
 			<key>ypos</key>
 			<integer>620</integer>
 		</dict>
+		<key>98D6EF53-6220-4AFA-ABC3-036B991F92E8</key>
+		<dict>
+			<key>xpos</key>
+			<integer>260</integer>
+			<key>ypos</key>
+			<integer>925</integer>
+		</dict>
 		<key>99BC79F5-A107-4680-9A2F-E97B5EE74552</key>
 		<dict>
 			<key>xpos</key>
 			<integer>55</integer>
 			<key>ypos</key>
 			<integer>620</integer>
+		</dict>
+		<key>A1C7AEEB-61E7-4954-B62D-E5504ED9163B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>655</integer>
+			<key>ypos</key>
+			<integer>1005</integer>
 		</dict>
 		<key>B157274C-527D-4275-AC22-140AF6107B4A</key>
 		<dict>
@@ -1054,6 +1403,13 @@ Set pomodoro
 			<key>ypos</key>
 			<integer>650</integer>
 		</dict>
+		<key>FD59D32A-1370-4CCE-B278-FE2F45AE661D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>55</integer>
+			<key>ypos</key>
+			<integer>895</integer>
+		</dict>
 	</dict>
 	<key>variables</key>
 	<dict>
@@ -1063,6 +1419,8 @@ Set pomodoro
 		<string>+09:00</string>
 		<key>NOTION_CALENDAR</key>
 		<string>Notion</string>
+		<key>OPEN_BY_APP</key>
+		<string>true</string>
 		<key>PROJECT_ID</key>
 		<string>38bb4bd5b7044d218894657f5b3c0cf8</string>
 		<key>PROJECT_LINK_NAME</key>
@@ -1093,7 +1451,7 @@ Set pomodoro
 		<string>MY_NOTION_TOKEN</string>
 	</array>
 	<key>version</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>webaddress</key>
 	<string>https://hkob.hatenablog.com/</string>
 </dict>
