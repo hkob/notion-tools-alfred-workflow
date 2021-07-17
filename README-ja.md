@@ -5,20 +5,22 @@ Notion のタスクデータベースの追加・変更を行う Workflow です
 
 # キーワード
 
-## an: Notion にタスクを直接登録する
+## an: Notion にタスクを直接登録する / anc: タスクを Notion とカレンダーに同時登録
 
-単にタスク名、日付、時間を記述すると、Task データベースに登録します。時間を省略すると終日タスクになり、日付も省略すると今日のタスクになります。
+単にタスク名、日付、時間を記述すると、Task データベースに登録します。
+時間を省略すると終日タスクになり、日付も省略すると今日のタスクになります。
+「anc」コマンドの場合には同時にカレンダーも同時に登録します。
 
-タイトルのみ|日付も指定|時間も指定|
-:-:|:-:|:-:
-|![no date](an1.png)|![with date](an2.png)|![with date and time](an3.png)|
+タイトルのみ|日付も指定|開始時間も指定|開始・終了時間も指定|
+:-:|:-:|:-:|:-|
+|![no date](an1.png)|![with date](an2.png)|![with date and time](an3.png)|![with date and time](an4.png)|
 
 実行すると、関連するプロジェクトの一覧が表示されるので、適切なプロジェクトを選びます。
 なお、このプロジェクト一覧は内部にキャッシュされるため、二回目からは Notion へアクセスすることはありません。
 もし、プロジェクトリストを再読み込みしたい場合には、`shift` + `return`をタイプしてください。
 |プロジェクトの選択|強制的なプロジェクト読み込み (shift + return)|
 :-:|:-:
-|![select project](selectProjects.png)|![Force reload](an4.png)|
+|![select project](selectProjects.png)|![Force reload](an5.png)|
 
 ## ac: カレンダーにタスクを登録する
 

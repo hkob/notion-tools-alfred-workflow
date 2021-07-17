@@ -8,21 +8,22 @@ This workflow uses [OneUpdater](https://github.com/vitorgalvao/alfred-workflows/
 
 # Keywords
 
-## an: Add Notion task for a project
+## an: Add Notion task for a project / anc: Add Notion task for a project and set calendar event for Notion calendar
 
 Simply type your task name, date and time into Alfred to create a task page to Notion.
 The date and time are optional.
+In the case of `anc` command, a calendar event is also registered at the same time.
 
-Title only|With date|With date and time|
-:-:|:-:|:-:
-|![no date](an1.png)|![with date](an2.png)|![with date and time](an3.png)|
+Title only|With date|With date and start time|With date, start time and end time|
+:-:|:-:|:-:|:-:
+|![no date](an1.png)|![with date](an2.png)|![with date and time](an3.png)|![with date and time](an4.png)|
 
 After typing, select a corresponding project from project lists.
 The project list was cached into this workflow.
 If you want to update the project list, type `shift` + `return` when typing a task name.
 |Project selection|Force reload project (shift + return)|
 :-:|:-:
-|![select project](selectProjects.png)|![Force reload](an4.png)|
+|![select project](selectProjects.png)|![Force reload](an5.png)|
 
 ## ac: Add calendar event for Notion calendar
 
