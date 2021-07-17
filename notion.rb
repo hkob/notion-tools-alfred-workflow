@@ -32,8 +32,7 @@ def post_notion(uri, payload)
   unless code == "200"
     STDERR.print "Error!\n#{response.body}\n" # エラーの時だけエラーを表示する
   end
-  STDERR.print response.body
-  JSON.parse(response.body)["results"]
+  JSON.parse(response.body)
 end
 
 def create_task(title, datetime, project_id = nil)
@@ -54,9 +53,7 @@ def create_task(title, datetime, project_id = nil)
       },
       TASK_DATE => {
         type: "date",
-        date: {
-          start: datetime
-        }
+        date: datetime,
       },
       PROJECT_LINK_NAME => {
         type: "relation",
@@ -68,7 +65,7 @@ end
 
 # ページの取得
 def get_notion_pages(payload, database_id = TASK_ID)
-  post_notion URI.parse("https://api.notion.com/v1/databases/#{database_id}/query"), payload
+  (post_notion URI.parse("https://api.notion.com/v1/databases/#{database_id}/query"), payload)["results"]
 end
 
 # patch 専用のメソッド
