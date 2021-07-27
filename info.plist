@@ -1126,7 +1126,7 @@ pomos = ARGV[1..].sort
 
 update_page(id, {
   properties: {
-    TASK_POMO: {
+    TASK_POMO =&gt; {
       multi_select: pomos.map { |p| {name: p } }
     }
   }
@@ -1465,7 +1465,7 @@ print JSON.dump(items)</string>
 		<key>229C8F99-A31E-4368-A378-81F236AB5DEE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>945</integer>
+			<integer>895</integer>
 			<key>ypos</key>
 			<integer>555</integer>
 		</dict>
@@ -1672,9 +1672,9 @@ print JSON.dump(items)</string>
 	</dict>
 	<key>variablesdontexport</key>
 	<array>
-		<string>PROJECT_ID</string>
 		<string>TASK_ID</string>
 		<string>MY_NOTION_TOKEN</string>
+		<string>PROJECT_ID</string>
 	</array>
 	<key>version</key>
 	<string>1.3</string>
