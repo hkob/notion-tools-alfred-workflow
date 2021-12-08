@@ -759,7 +759,7 @@ function createCalendar(task_id) {
   // 日付が設定されていなければ今日にする
   if (dateStr.match("^[0-9]+/[0-9]+$")) {
     dateStr = new Date().getFullYear() + "/" + words.pop()
-  } else if (dateStr.match("^[0-9]+/[0-9]+/[0-9]+/$")) {
+  } else if (dateStr.match("^[0-9]+/[0-9]+/[0-9]+$")) {
     dateStr = words.pop()
   } else {
     let timeNow = new Date()
@@ -1408,7 +1408,15 @@ print JSON.dump(items)</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>1. Create task page
+	<string>### Recent update (1.4 -&gt; 1.5)
+
+Bug fix: 
+  Fixed the problem that the calendar could not be registered correctly in the format of YYYY / MM / DD.
+
+
+### 
+
+1. Create task page
   Commands
 	an: Add Notion task
 	anc: Add Notion task and set Calendar
@@ -1673,11 +1681,11 @@ print JSON.dump(items)</string>
 	<key>variablesdontexport</key>
 	<array>
 		<string>TASK_ID</string>
-		<string>MY_NOTION_TOKEN</string>
 		<string>PROJECT_ID</string>
+		<string>MY_NOTION_TOKEN</string>
 	</array>
 	<key>version</key>
-	<string>1.4</string>
+	<string>1.5</string>
 	<key>webaddress</key>
 	<string>https://hkob.hatenablog.com/</string>
 </dict>

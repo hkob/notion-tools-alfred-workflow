@@ -23,7 +23,7 @@ def post_notion(uri, payload)
   request = Net::HTTP::Post.new(uri)
   request.content_type = "application/json"
   request["Authorization"] = "Bearer #{MY_NOTION_TOKEN}"
-  request["Notion-Version"] = "2021-05-13"
+  request["Notion-Version"] = "2021-08-16"
   request.body = JSON.dump(payload)
   response = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true) do |http|
     http.request(request)
@@ -73,7 +73,7 @@ def patch_notion(uri, payload)
   request = Net::HTTP::Patch.new(uri)
   request.content_type = "application/json"
   request["Authorization"] = "Bearer #{MY_NOTION_TOKEN}"
-  request["Notion-Version"] = "2021-05-13"
+  request["Notion-Version"] = "2021-08-16"
   request.body = JSON.dump(payload)
   response = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true) do |http|
     http.request(request)
