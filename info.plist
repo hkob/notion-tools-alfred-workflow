@@ -1408,7 +1408,12 @@ print JSON.dump(items)</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>### Recent update (1.4 -&gt; 1.5)
+	<string>### Recent update (1.5 -&gt; 1.6)
+
+Bug fix: 
+  Fixed the problem that add a refrection item
+
+### Recent update (1.4 -&gt; 1.5)
 
 Bug fix: 
   Fixed the problem that the calendar could not be registered correctly in the format of YYYY / MM / DD.
@@ -1685,7 +1690,7 @@ Bug fix:
 		<string>PROJECT_ID</string>
 	</array>
 	<key>version</key>
-	<string>1.5</string>
+	<string>1.6</string>
 	<key>webaddress</key>
 	<string>https://hkob.hatenablog.com/</string>
 </dict>
