@@ -72,6 +72,19 @@
 		</array>
 		<key>4A1F544E-EAEB-4064-B190-7670A658E100</key>
 		<array/>
+		<key>7240DA87-170B-46B0-AE62-9644EAB45235</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E873DFD9-DC70-4FCF-9EBC-489273022A19</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>88054947-FDE2-476E-BAD7-5A9F9F0BA79C</key>
 		<array>
 			<dict>
@@ -1047,7 +1060,10 @@ print JSON.dump(items)</string>
 				<key>script</key>
 				<string>require './notion.rb'
 
-filters = [{property: TASK_DATE, date: {equals: Date.today}}]
+filters = [
+  {property: TASK_DATE, date: {equals: Date.today}},
+  {property: TASK_DONE, checkbox: {equals: false}},
+]
 filters &lt;&lt; {property: TASK_IS_POMO, checkbox: {equals: true}} unless TASK_IS_POMO.empty?
 filters &lt;&lt; {property: TASK_IS_NOT_POMO, checkbox: {equals: false}} unless TASK_IS_NOT_POMO.empty?
              
@@ -1074,9 +1090,6 @@ pages = get_notion_pages({
 
 # 設定されている最後のポモドーロ番号を取得
 max_pomo = pages.map { |p| p[:pomos] }.flatten.max
-
-# 終了したページは除外
-pages.reject! { |p| p[:done] }
 
 items = {
   items: pages.map do |p|
@@ -1406,9 +1419,133 @@ print JSON.dump(items)</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>doit</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>require './notion.rb'
+
+filters = [
+  {property: TASK_DATE, date: {is_empty: true}},
+  {property: TASK_DONE, checkbox: {equals: false}},
+]
+             
+# page を取得し、利用しやすい Hash に変換
+pages = get_notion_pages({
+  filter: {
+    and: filters
+  },
+  sorts: [
+    {
+	  "property": TASK_POMO,
+	  "direction": "ascending"
+	}
+  ],
+}).map { |p|
+  prs = p["properties"]
+  {
+    id: p["id"],
+    title: (prs[TASK_NAME]["title"][0]["plain_text"] || ""),
+    pomos: (prs[TASK_POMO]["multi_select"].map { |ms| ms["name"] }),
+  }
+}
+
+items = {
+  items: pages.map do |p|
+    {
+      # タイトル
+      title: p[:title],
+      # 次のモジュールに渡す引数(id, title, 最大ポモ, 設定済ポモ)
+      arg: [p[:id], p[:title]].flatten.join("\t")
+    }
+  end
+}
+print JSON.dump(items)</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Do it!</string>
+				<key>type</key>
+				<integer>2</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>7240DA87-170B-46B0-AE62-9644EAB45235</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>require "./notion.rb"
+
+id, _ = ARGV[0].split "\t"
+
+update_page(id, {
+  properties: {
+    TASK_DATE =&gt; {
+      date: {start: Date.today }
+    }
+  }
+})</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>E873DFD9-DC70-4FCF-9EBC-489273022A19</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
-	<string>### Recent update (1.5 -&gt; 1.6)
+	<string>### Recent update (1.6 -&gt; 1.7)
+
+Add:
+  Add doit command to set today to date property 
+
+### Recent update (1.5 -&gt; 1.6)
 
 Bug fix: 
   Fixed the problem that add a refrection item
@@ -1448,7 +1585,7 @@ Bug fix:
 2. Add sentence to a Reflection page
   Usage:
 	ar task-name
-		Append finished task to reflection page
+		Append a finished task to reflection page
 
 3. Set pomodoro
   Usage:
@@ -1456,7 +1593,15 @@ Bug fix:
 
 4. Open an unfinished task by Notion.app or default browser
   Usage:
-    ot</string>
+    ot
+
+5. Finish a task
+  Usage:
+    command `pn' or `ot' and press shift + return
+
+6. Set today to date property
+  Usage:
+    doit</string>
 	<key>uidata</key>
 	<dict>
 		<key>109F7B98-1B50-45E9-93AC-8EE2D7A9B307</key>
@@ -1513,6 +1658,13 @@ Bug fix:
 			<integer>320</integer>
 			<key>ypos</key>
 			<integer>265</integer>
+		</dict>
+		<key>7240DA87-170B-46B0-AE62-9644EAB45235</key>
+		<dict>
+			<key>xpos</key>
+			<integer>60</integer>
+			<key>ypos</key>
+			<integer>1330</integer>
 		</dict>
 		<key>88054947-FDE2-476E-BAD7-5A9F9F0BA79C</key>
 		<dict>
@@ -1635,6 +1787,13 @@ Bug fix:
 			<key>ypos</key>
 			<integer>965</integer>
 		</dict>
+		<key>E873DFD9-DC70-4FCF-9EBC-489273022A19</key>
+		<dict>
+			<key>xpos</key>
+			<integer>310</integer>
+			<key>ypos</key>
+			<integer>1330</integer>
+		</dict>
 		<key>FD2BA461-762A-44AC-B66B-577DB58B5C4C</key>
 		<dict>
 			<key>xpos</key>
@@ -1690,7 +1849,7 @@ Bug fix:
 		<string>PROJECT_ID</string>
 	</array>
 	<key>version</key>
-	<string>1.6</string>
+	<string>1.7</string>
 	<key>webaddress</key>
 	<string>https://hkob.hatenablog.com/</string>
 </dict>
